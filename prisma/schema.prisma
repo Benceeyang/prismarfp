@@ -5,3 +5,35 @@ generator client {
 datasource db {
   provider = "sqlserver"
   url      = env("DATABASE_URL")
+}
+
+model ArtsandCulture {
+  Place       String  @id(map: "PK_ArtsandCulture") @db.NVarChar(50)
+  Address     String? @db.NVarChar(50)
+  Description String? @db.NVarChar(350)
+}
+
+model Jobs {
+  Position      String    @id(map: "PK_Jobs") @db.NVarChar(50)
+  Sub_position  String?   @db.NVarChar(50)
+  Address       String?   @db.NVarChar(50)
+  RequestNumber String?   @db.NVarChar(50)
+  DatePosted    DateTime? @db.Date
+  Description   String?   @db.NVarChar(Max)
+}
+
+model ListofCourtOfficials {
+  Judge        String  @id(map: "PK_ListofCourtOfficials") @db.NVarChar(50)
+  Branch       Int?    @db.TinyInt
+  Deputy_Clerk String? @db.NVarChar(50)
+  Room         String? @db.NVarChar(50)
+  Office_Phone String? @db.NVarChar(100)
+}
+
+model ListofCourtReporters {
+  Court_Reporters String  @id(map: "PK_ListofCourtReporters") @db.NVarChar(50)
+  OfficeLocation  String? @db.NVarChar(50)
+  Judge_Status    String? @db.NVarChar(50)
+  OfficePhone     String? @db.NVarChar(50)
+  Email           String? @db.NVarChar(50)
+}
