@@ -8,13 +8,13 @@ datasource db {
 }
 
 model ArtsandCulture {
-  Place       String  @id(map: "PK_ArtsandCulture") @db.NVarChar(50)
+  Place       String  @id(map: "PK_Place") @db.NVarChar(50)
   Address     String? @db.NVarChar(50)
   Description String? @db.NVarChar(350)
 }
 
 model Jobs {
-  Position      String    @id(map: "PK_Jobs") @db.NVarChar(50)
+  Position      String    @id(map: "PK_Position") @db.NVarChar(50)
   Sub_position  String?   @db.NVarChar(50)
   Address       String?   @db.NVarChar(50)
   RequestNumber String?   @db.NVarChar(50)
@@ -23,7 +23,7 @@ model Jobs {
 }
 
 model ListofCourtOfficials {
-  Judge        String  @id(map: "PK_ListofCourtOfficials") @db.NVarChar(50)
+  Judge        String  @id(map: "PK_Judge") @db.NVarChar(50)
   Branch       Int?    @db.TinyInt
   Deputy_Clerk String? @db.NVarChar(50)
   Room         String? @db.NVarChar(50)
@@ -31,7 +31,7 @@ model ListofCourtOfficials {
 }
 
 model ListofCourtReporters {
-  Court_Reporters String  @id(map: "PK_ListofCourtReporters") @db.NVarChar(50)
+  Court_Reporters String  @id(map: "PK_Reporters") @db.NVarChar(50)
   OfficeLocation  String? @db.NVarChar(50)
   Judge_Status    String? @db.NVarChar(50)
   OfficePhone     String? @db.NVarChar(50)

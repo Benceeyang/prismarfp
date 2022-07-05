@@ -1,17 +1,18 @@
 import React, {useMemo} from "react";
-// import {useTable} from "react-table";
-// import {COLUMNS} from "../componentsJudgeColumns"
+import {useTable} from "react-table";
+import {COLUMNS} from "../components/ListofCourtOfficialsColumns"
+import styles from "../styles/table.module.css"
 
 export const getServerSideProps = async () => {
   const res = await fetch("http://localhost:3000/api/Judge");
-  const Judge = await res.json();
+  const ListofCourtOfficials = await res.json();
   return {
-    props: { Judge },
+    props: { ListofCourtOfficials },
   };
 };
 
 export default function Judge({ListofCourtOfficials}) {
-const columns = useMemo(() => columns, []); 
+const columns = useMemo(() => COLUMNS, []); 
 console.log(columns);
 const data = useMemo (() => ListofCourtOfficials, []);
 console.log(data);
