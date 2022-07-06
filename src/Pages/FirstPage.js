@@ -60,15 +60,3 @@ const slides = [
       </div>
     )
   }
-
-
-
-// const a = () => {
-//     return(
-//         <div>
-//             <h1>test</h1>
-//         </div>
-//     )
-// }
-
-// export default a;

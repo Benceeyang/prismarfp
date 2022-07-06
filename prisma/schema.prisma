@@ -25,15 +25,15 @@ model Jobs {
 model ListofCourtOfficials {
   Judge        String  @id(map: "PK_Judge") @db.NVarChar(50)
   Branch       Int?    @db.TinyInt
-  Deputy Clerk String? @db.NVarChar(50)
+  Deputy_Clerk String? @db.NVarChar(50)
   Room         String? @db.NVarChar(50)
-  Office Phone String? @db.NVarChar(100)
+  Office_Phone String? @db.NVarChar(100)
 }
 
 model ListofCourtReporters {
-  Court Reporters String  @id(map: "PK_Reporters") @db.NVarChar(50)
+  Court_Reporters String  @id(map: "PK_Reporters") @db.NVarChar(50)
   OfficeLocation  String? @db.NVarChar(50)
-  Judge Status    String? @db.NVarChar(50)
+  Judge_Status    String? @db.NVarChar(50)
   OfficePhone     String? @db.NVarChar(50)
   Email           String? @db.NVarChar(50)
 }

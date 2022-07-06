@@ -1,0 +1,239 @@
+.Transportation{
+    bottom: 300px;
+    width: 20%;
+    height: 5%;
+      color: black;
+      position: fixed;
+      font-size: 20px;
+      text-align: center;
+      left: 50%;
+      /* bring your own prefixes */
+      transform: translate(-50%, -50%);
+      padding: 15px 32px;
+    border: 3px solid silver; /* Green */
+    display: inline-block;
+    background-color: silver;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 12px; 
+     font-weight: bold;
+     box-shadow: 0 0 0 1px silver,0 0 0 2px rgba(255, 255, 255, 0.15) inset,0 4px 0 0 grey,0 4px 0 1px rgba(0, 0, 0, 0.4),0 4px 4px 1px rgba(0, 0, 0, 0.5);
+     background: linear-gradient(250deg, #fff, #525153   );
+}
+  
+  .Returndir{
+    bottom: -15px;
+    width: 20%;
+    height: 11.5%;
+        color: black;
+        position: fixed;
+        font-size: 25px;
+        text-align: center;
+        left: 50%;
+        /* bring your own prefixes */
+        transform: translate(-50%, -50%);
+        padding: 15px 32px;
+      border: 3px solid silver; /* Green */
+      display: inline-block;
+      background-color: silver;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      border-radius: 12px; 
+       font-weight: bold;
+       box-shadow: 0 0 0 1px silver,0 0 0 2px rgba(255, 255, 255, 0.15) inset,0 4px 0 0 grey,0 4px 0 1px rgba(0, 0, 0, 0.4),0 4px 4px 1px rgba(0, 0, 0, 0.5);
+       background: linear-gradient(250deg, #fff, #525153   );
+  }
+  .Returndir:hover{
+    box-shadow: 5px 10px 20px 1px rgba(250, 246, 246, 0.253) !important;
+  }
+  .Parks{
+    bottom: 300px;
+    width: 20%;
+    height: 11.5%;
+        color: black;
+        position: fixed;
+        font-size: 20px;
+        text-align: center;
+        left: 35%;
+        /* bring your own prefixes */
+        transform: translate(-50%, -50%);
+      padding: 15px 32px;
+    border: 3px solid silver; /* Green */
+    display: inline-block;
+    background-color: silver;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 12px; 
+     font-weight: bold;
+     box-shadow: 0 0 0 1px silver,0 0 0 2px rgba(255, 255, 255, 0.15) inset,0 4px 0 0 grey,0 4px 0 1px rgba(0, 0, 0, 0.4),0 4px 4px 1px rgba(0, 0, 0, 0.5);
+     background: linear-gradient(250deg, #fff, #525153   );
+}
+ 
+.Parks:hover{
+  box-shadow: 5px 10px 20px 1px rgba(250, 246, 246, 0.253) !important;
+}
+  
+  .Health{
+    bottom: 300px;
+    width: 20%;
+    height: 11.5%;
+      color: black;
+      position: fixed;
+      font-size: 20px;
+      text-align: center;
+      left: 65%;
+      /* bring your own prefixes */
+      transform: translate(-50%, -50%);
+      padding: 15px 32px;
+    border: 3px solid silver; /* Green */
+    display: inline-block;
+    background-color: silver;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 12px; 
+     font-weight: bold;
+     box-shadow: 0 0 0 1px silver,0 0 0 2px rgba(255, 255, 255, 0.15) inset,0 4px 0 0 grey,0 4px 0 1px rgba(0, 0, 0, 0.4),0 4px 4px 1px rgba(0, 0, 0, 0.5);
+     background: linear-gradient(250deg, #fff, #525153   );
+}
+.Health:hover{
+  box-shadow: 5px 10px 20px 1px rgba(250, 246, 246, 0.253) !important;
+}
+          
+  .Arts{
+    bottom: 100px;
+    width: 20%;
+    height: 11.4%;
+      color: black;
+      position: fixed;
+      font-size: 20px;
+      text-align: center;
+      left: 35%;
+      /* bring your own prefixes */
+      transform: translate(-50%, -50%);
+      padding: 15px 32px;
+    border: 3px solid silver; /* Green */
+    display: inline-block;
+    background-color: silver;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 12px; 
+     font-weight: bold;
+     box-shadow: 0 0 0 1px silver,0 0 0 2px rgba(255, 255, 255, 0.15) inset,0 4px 0 0 grey,0 4px 0 1px rgba(0, 0, 0, 0.4),0 4px 4px 1px rgba(0, 0, 0, 0.5);
+     background: linear-gradient(250deg, #fff, #525153   );
+}
+.Arts:hover{
+  box-shadow: 5px 10px 20px 1px rgba(250, 246, 246, 0.253) !important;
+}
+  .Housing{
+    
+    bottom: 500px;
+    width: 20%;
+    height: 11.5%;
+      color: black;
+      position: fixed;
+      font-size: 19px;
+      text-align: center;
+      left: 35%;
+      /* bring your own prefixes */
+      transform: translate(-50%, -50%);
+      padding: 15px 32px;
+    border: 3px solid silver; /* Green */
+    display: inline-block;
+    background-color: silver;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 12px; 
+     font-weight: bold;
+     box-shadow: 0 0 0 1px silver,0 0 0 2px rgba(255, 255, 255, 0.15) inset,0 4px 0 0 grey,0 4px 0 1px rgba(0, 0, 0, 0.4),0 4px 4px 1px rgba(0, 0, 0, 0.5);
+     background: linear-gradient(250deg, #fff, #525153   );
+}
+.Housing:hover{
+  box-shadow: 5px 10px 20px 1px rgba(250, 246, 246, 0.253) !important;
+}
+  .Children{
+    bottom: 100px;
+    width: 20%;
+    height: 11.5%;
+      color: black;
+      position: fixed;
+      font-size: 20px;
+      text-align: center;
+      left: 65%;
+      /* bring your own prefixes */
+      transform: translate(-50%, -50%);
+      padding: 15px 32px;
+    border: 3px solid silver; /* Green */
+    display: inline-block;
+    background-color: silver;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 12px; 
+     font-weight: bold;
+     box-shadow: 0 0 0 1px silver,0 0 0 2px rgba(255, 255, 255, 0.15) inset,0 4px 0 0 grey,0 4px 0 1px rgba(0, 0, 0, 0.4),0 4px 4px 1px rgba(0, 0, 0, 0.5);
+     background: linear-gradient(250deg, #fff, #525153   );
+}
+.Children:hover{
+  box-shadow: 5px 10px 20px 1px rgba(250, 246, 246, 0.253) !important;
+}
+
+
+  .Publicsafety{
+    bottom: 500px;
+    width: 21%;
+    height: 11.5%;
+      color: black;
+      position: fixed;
+      font-size: 20px;
+      text-align: center;
+      left: 65%;
+      /* bring your own prefixes */
+      transform: translate(-50%, -50%);
+      padding: 15px 32px;
+    border: 3px solid silver; /* Green */
+    display: inline-block;
+    background-color: silver;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 12px; 
+     font-weight: bold;
+     box-shadow: 0 0 0 1px silver,0 0 0 2px rgba(255, 255, 255, 0.15) inset,0 4px 0 0 grey,0 4px 0 1px rgba(0, 0, 0, 0.4),0 4px 4px 1px rgba(0, 0, 0, 0.5);
+     background: linear-gradient(250deg, #fff, #525153   );
+}
+.Publicsafety:hover{
+  box-shadow: 5px 10px 20px 1px rgba(250, 246, 246, 0.253) !important;
+}
+  .Dirmenu{
+    bottom: -25px;
+    width: 10%;
+    height: 4%;
+      color: black;
+      position: fixed;
+      font-size: 25px;
+      text-align: center;
+      left: 40%;
+      /* bring your own prefixes */
+      transform: translate(-50%, -50%);
+      padding: 15px 32px;
+    border: 3px solid silver; /* Green */
+    display: inline-block;
+    background-color: silver;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 12px; 
+     font-weight: bold;
+     box-shadow: 0 0 0 1px silver,0 0 0 2px rgba(255, 255, 255, 0.15) inset,0 4px 0 0 grey,0 4px 0 1px rgba(0, 0, 0, 0.4),0 4px 4px 1px rgba(0, 0, 0, 0.5);
+     background: linear-gradient(250deg, #fff, #525153   );
+}
+
+  .Dirreturnmenu{
+    bottom: -30px;
+    width: 14%;
+    height: 5%;
+      color: black;
+      position: fixed;
+      font-size: 25px;
+      text-align: center;
+      left: 60%;
+      /* bring your own prefixes */
+      transform: translate(-50%, -50%);
+      padding: 15px 32px;
+    border: 3px solid silver; /* Green */
+    display: inline-block;
+    background-color: silver;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 12px; 
+     font-weight: bold;
+     box-shadow: 0 0 0 1px silver,0 0 0 2px rgba(255, 255, 255, 0.15) inset,0 4px 0 0 grey,0 4px 0 1px rgba(0, 0, 0, 0.4),0 4px 4px 1px rgba(0, 0, 0, 0.5);
+     background: linear-gradient(250deg, #fff, #525153   );
+}
