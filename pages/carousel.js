@@ -4,8 +4,8 @@
 // import logo from '../images/maskgroup.jpg'
 // import photo from '../images/PIXELS.jpg'
 // import picture from '../images/frameten.jpg'
-// import Clock from '../Clocker.js'
-// import FirstPage from "./carousel";
+// import Clock from './Clocker.js'
+
 
 
 // const slides = [
@@ -60,17 +60,9 @@
 //       </div>
 //     )
 //   }
+const b = () => {
 
-import test2 from "./test2";
-
-const a = () => {
-    return(
-        <div>
-            <h1>test</h1>
-            {<FirstPage /> }
-            {/* {<test2 />} */}
-        </div>
-    )
 }
 
-export default a;
+
+export {b};
