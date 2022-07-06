@@ -1,5 +1,5 @@
 import React from 'react'
-import '../src/css/buttons.module.css';
+import  styles from '../src/css/buttons.module.css';
 import '../src/css/DirectoryPage.module.css';
 import '../src/css/PublicPage.module.css';
 import '../src/css/ArtsPage.module.css';
@@ -9,6 +9,7 @@ import '../src/css/HousingPage.module.css';
 
 import '../src/css/ParksPage.module.css';
 import '../src/css/JobPage.module.css';
+
 const Buttonoffices = () =>{
   return (
     <div className='Offices'>
@@ -30,8 +31,8 @@ const Buttonpeople = () =>{
 
 const Buttonjobs = () =>{
   return (
-    <div className='Jobs'>
-        <button4>
+    <div>
+        <button4 className={styles.jobs}>
             Jobs
         </button4>
     </div>

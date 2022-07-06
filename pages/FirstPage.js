@@ -6,8 +6,9 @@ import photo from './images/PIXELS.jpg'
 import picture from './images/frameten.jpg'
 import Clocker from '../pages/clocker'
 import SecondPage from './SecondPage';
-
-
+// import { Router } from 'next/router';
+// import Router from "./Router";
+import Link from "next/link";
 
 const slides = [
     logo, 
@@ -36,24 +37,27 @@ const slides = [
         <div>
         <div>
         <div className="Clocker">
+        {/* {<Link></Link>} */}
         <Clocker />
         </div>
         <div>
         <div>
         <div>
           </div>
-        {/* { <Link to='/second'>
+        {<Link href="http://localhost:3000/SecondPage">Test</Link>}
+        { <Link href='/second'>
         {transitions((style, i) => (
           <animated.div
-            className='bg'
-            style={{
-              ...style,
-              backgroundImage: `url(${slides[i]})`,
-            }}
+          className='bg'
+          style={{
+            ...style,
+            backgroundImage: `url(${slides[i]})`,
+          }}
           />
-        ))}
-        </Link> } */}
-        <SecondPage />
+          ))}
+        </Link> }
+
+        {/* <SecondPage /> */}
       </div>
       </div>
       </div>
