@@ -1,0 +1,50 @@
+.date{
+  
+    bottom: 7px;
+    width: 100;
+    height: 100;
+    color: black;
+    position: fixed;
+    bottom: 400px;
+    font-size: 50px; 
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+.glow {
+  bottom: 50px;
+  width: 100;
+  height: 100;
+    color: black;
+    position: fixed;
+    font-size: 150px;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+.nope{
+
+  width:100;
+  height: 100;
+  color: white;
+  position: fixed;
+  bottom: 580px;
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  left: 48%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+.work {
+bottom: 540px;
+width: 100;
+height: 100;
+  color: white;
+  position: fixed;
+  font-size: 30px;
+  
+  left: 48%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}

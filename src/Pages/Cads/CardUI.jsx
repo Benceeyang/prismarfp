@@ -1,6 +1,6 @@
 import React from 'react';
 
-import "./card-style.css";
+import "./card-style.module.css";
 
 const Card = props =>{
     return(
@@ -13,7 +13,7 @@ const Card = props =>{
                 <p className="card-text text-white">{props.paragraph}
                     
                 </p>
-                <a href='bot' className="btn btn-outline-light" >View more</a>
+                {/* <a href='bot' className="btn btn-outline-light" >View more</a> */}
             </div>
         </div>
     ); 

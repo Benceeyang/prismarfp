@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react'
 import { useTransition, animated } from '@react-spring/web'
-import {Link} from 'react-router-dom';
-import logo from '../images/maskgroup.jpg'
-import photo from '../images/PIXELS.jpg'
-import picture from '../images/frameten.jpg'
-import Clock from '../Clocker.js'
+// import {Link} from 'react-router-dom';
+import logo from './images/maskgroup.jpg'
+import photo from './images/PIXELS.jpg'
+import picture from './images/frameten.jpg'
+import Clocker from '../pages/clocker'
+import SecondPage from './SecondPage';
 
 
 
@@ -35,13 +36,13 @@ const slides = [
         <div>
         <div>
         <div className="Clocker">
-        <Clock></Clock>
+        <Clocker />
         </div>
         <div>
         <div>
         <div>
           </div>
-        <Link to='/second'>
+        {/* { <Link to='/second'>
         {transitions((style, i) => (
           <animated.div
             className='bg'
@@ -51,7 +52,8 @@ const slides = [
             }}
           />
         ))}
-        </Link>
+        </Link> } */}
+        <SecondPage />
       </div>
       </div>
       </div>
