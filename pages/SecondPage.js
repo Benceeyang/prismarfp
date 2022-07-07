@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from '../src/css/SecondPage.module.css'
 // import Home from '../images/home.jpg'
 // import {Link} from 'react-router-dom'
 import Clocker from './clocker'
@@ -7,32 +6,35 @@ import{Buttonoffices, Buttonpeople, Buttonjobs, Buttondir, Buttonabout, Buttonne
 import { Router } from 'next/router';
 // import styles from "../styles/dateTime.module.css"
 import Link from "next/link"; 
+import Timer from './timer';
 
 function SecondPage() {
   return (
-    <div >
-      {/* <Clocker className='clocker' />
-      <div className= {styles.background}>
-        <Link to ='/job'>
+    <div>
+      
+      <Clocker className='clocker' />
+      <div>
+        { <Link href ='http://localhost:3000/job'>
         <Buttonjobs />
-        </Link>
+        </Link> }
 
-        <Link to ='/office '>
+        <Link href ='http://localhost:3000/office'>
         <Buttonoffices />
         </Link>
-        <Link to ='/people'>
+        
+        {/* <Link to ='/people'>
         <Buttonpeople />
         </Link>
         <Link to ='/dir'>
         <Buttondir />
-        </Link>
+        </Link> 
         <Link to ='/'>
         <Buttonabout />
         </Link>
         <Link to ='/dir'>
         <Buttonne />
-        </Link>
-      </div> */}
+  </Link> */}
+      </div>
 
     </div>
   )

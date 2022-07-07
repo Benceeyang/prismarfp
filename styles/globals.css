@@ -14,3 +14,11 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.background {
+  background-image: url('../public/images1/home.jpg');
+  background-repeat: no-repeat;
+  padding-bottom: 636px;
+  background-color: black;
+  background-position: center;
+}

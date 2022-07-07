@@ -6,16 +6,19 @@ import '../src/css/ArtsPage.module.css';
 import '../src/css/ChildrenPage.module.css';
 import '../src/css/HealthPage.module.css';
 import '../src/css/HousingPage.module.css';
-
 import '../src/css/ParksPage.module.css';
 import '../src/css/JobPage.module.css';
+
+import Link from "next/link"; 
 
 const Buttonoffices = () =>{
   return (
     <div className='Offices'>
+      <Link href ='http://localhost:3000/judgesPage'>
         <button2>
             Offices
         </button2>
+      </Link>
     </div>
   )
 }
@@ -32,9 +35,11 @@ const Buttonpeople = () =>{
 const Buttonjobs = () =>{
   return (
     <div>
+      <Link href ='http://localhost:3000/job'>
         <button4 className={styles.jobs}>
             Jobs
         </button4>
+        </Link>
     </div>
   )
 }

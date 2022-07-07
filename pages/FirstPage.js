@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from 'react'
 import { useTransition, animated } from '@react-spring/web'
 // import {Link} from 'react-router-dom';
-import logo from './images/maskgroup.jpg'
+import logo from './images/maskgroup.jpg';
 import photo from './images/PIXELS.jpg'
 import picture from './images/frameten.jpg'
 import Clocker from '../pages/clocker'
 import SecondPage from './SecondPage';
-// import { Router } from 'next/router';
+import { Router } from 'next/router';
 // import Router from "./Router";
 import Link from "next/link";
+
 
 const slides = [
     logo, 
@@ -32,19 +33,12 @@ const slides = [
       exitBeforeEnter: true,
     })
     return (
-      <div>
       <div className="flex fill center">
-        <div>
-        <div>
         <div className="Clocker">
-        {/* {<Link></Link>} */}
         <Clocker />
-        </div>
-        <div>
-        <div>
-        <div>
-          </div>
-        {<Link href="http://localhost:3000/SecondPage">Test</Link>}
+        
+        {<Link href="http://localhost:3000/SecondPage">Second Page</Link>}
+
         { <Link href='/second'>
         {transitions((style, i) => (
           <animated.div
@@ -58,11 +52,7 @@ const slides = [
         </Link> }
 
         {/* <SecondPage /> */}
-      </div>
-      </div>
-      </div>
-      </div>
-      </div>
+        </div>
       </div>
     )
   }
