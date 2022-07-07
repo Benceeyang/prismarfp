@@ -1,5 +1,6 @@
 import React ,{useState,useEffect}from 'react';
-import styles from '../src/css/SecondPage.module.css';
+// import styles from '../styles/SecondPage.module.css'
+import styles from '../src/css/buttons.module.css';
 
 
 export default function Timer() {

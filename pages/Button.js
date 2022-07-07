@@ -1,5 +1,5 @@
 import React from 'react'
-import  styles from '../src/css/buttons.module.css';
+import  styles from '../src/css/buttons.module.css'
 import '../src/css/DirectoryPage.module.css';
 import '../src/css/PublicPage.module.css';
 import '../src/css/ArtsPage.module.css';
@@ -13,7 +13,7 @@ import Link from "next/link";
 
 const Buttonoffices = () =>{
   return (
-    <div className='Offices'>
+    <div className={styles.Offices}>
       <Link href ='http://localhost:3000/judgesPage'>
         <button2>
             Offices
@@ -35,11 +35,11 @@ const Buttonpeople = () =>{
 const Buttonjobs = () =>{
   return (
     <div>
-      <Link href ='http://localhost:3000/job'>
-        <button4 className={styles.jobs}>
+      <Link href ='http://localhost:3000/job'>Jobs</Link>
+        {/* <button4 className={styles.jobs}>
             Jobs
         </button4>
-        </Link>
+        </Link> */}
     </div>
   )
 }
