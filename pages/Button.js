@@ -24,22 +24,24 @@ const Buttonoffices = () =>{
 }
 const Buttonpeople = () =>{
   return (
-    <div className='People'>
+    <div className={styles.People}>
+      <Link href ='http://localhost:3000/PeoplePage'>
         <button3>
             People
         </button3>
+      </Link>
     </div>
   )
 }
 
 const Buttonjobs = () =>{
   return (
-    <div>
-      <Link href ='http://localhost:3000/job'>Jobs</Link>
-        {/* <button4 className={styles.jobs}>
+    <div className={styles.Jobs}>
+      <Link href ='http://localhost:3000/JobPage'>
+        <button4>
             Jobs
         </button4>
-        </Link> */}
+      </Link>
     </div>
   )
 }

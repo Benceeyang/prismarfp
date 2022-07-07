@@ -1,13 +1,12 @@
 import React ,{useState,useEffect}from 'react';
-// import styles from '../styles/SecondPage.module.css'
-import styles from '../src/css/buttons.module.css';
+import styles from "../styles/SecondPage.module.css";
 
 
-export default function Timer() {
+export default function Clocker() {
 
     const [hours,setHours]=useState("00");
     const [minutes,setMinutes]=useState("00");
-    const [seconds,setSeconds]=useState("00");
+    //const [seconds,setSeconds]=useState("00");
     const [date,setDate]=useState("date");
 
     useEffect(
@@ -16,7 +15,7 @@ export default function Timer() {
     let d=new Date();
     var h=d.getHours();
     var m=d.getMinutes().toString();
-    // var s=d.getSeconds().toString();
+    var s=d.getSeconds().toString();
     h=(h%12)||12;
     h=h.toString();
     var z=d.getDate().toString().padStart(2,'0')+" / "
@@ -29,12 +28,13 @@ export default function Timer() {
 
     return () => clearInterval(intervalId); 
     },1000);
-},[seconds,minutes,hours,date]);
+},[/*seconds*/,minutes,hours,date]);
 
     return (
-        <div className={styles.background}>
-            <h1 className={styles.nope}>{date}</h1>
-           <h1 className={styles.work}>{hours}</h1>
+        <div> 
+          <h1 className={styles.background} />
+          <h1 className={styles.nope}>{date} </h1>
+          <h1 className={styles.work}>{hours} </h1>
         </div>
     )
 }
