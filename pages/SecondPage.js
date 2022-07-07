@@ -24,20 +24,21 @@ function SecondPage() {
         <Buttonoffices />
         </Link>
         
-        <Link href ='http://localhost:3000/office/people'>
+        <Link href ='http://localhost:3000/people'>
         <Buttonpeople />
         </Link>
 
-{/*         
+      
         <Link to ='/dir'>
         <Buttondir />
         </Link> 
-        <Link to ='/'>
+
+        {/* <Link to ='/'>
         <Buttonabout />
         </Link>
         <Link to ='/dir'>
         <Buttonne />
-  </Link> */} 
+  </Link>   */}
       </div>
 
     </div>

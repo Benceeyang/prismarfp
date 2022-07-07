@@ -39,7 +39,7 @@ const slides = [
         
         {<Link href="http://localhost:3000/SecondPage">Second Page</Link>}
 
-        { <Link href='/second'>
+        {/* { <Link href='/second'> */}
         {transitions((style, i) => (
           <animated.div
           className='bg'
@@ -49,7 +49,7 @@ const slides = [
           }}
           />
           ))}
-        </Link> }
+        {/* </Link> } */}
 
         {/* <SecondPage /> */}
         </div>

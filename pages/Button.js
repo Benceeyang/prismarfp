@@ -47,10 +47,12 @@ const Buttonjobs = () =>{
 }
 const Buttondir = () =>{
   return (
-    <div className='Directory'>
+    <div className={styles.Directory}>
+      <Link href ='http://localhost:3000/DirectoryPage'>
         <button5>
             Directories
         </button5>
+      </Link>
     </div>
   )
 }
