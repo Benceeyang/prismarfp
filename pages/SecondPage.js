@@ -24,14 +24,14 @@ function SecondPage() {
         <Buttonoffices />
         </Link>
         
-        <Link href ='http://localhost:3000/people'>
+        <Link href ='http://localhost:3000/people'> 
         <Buttonpeople />
         </Link>
 
-      
+{/*       
         <Link to ='/dir'>
         <Buttondir />
-        </Link> 
+        </Link>  */}
 
         {/* <Link to ='/'>
         <Buttonabout />

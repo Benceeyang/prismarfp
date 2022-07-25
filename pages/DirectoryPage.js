@@ -1,11 +1,11 @@
-// import React from 'react'
-// import styles from '../styles/SecondPage.module.css'
+import React from 'react'
+import styles from '../styles/SecondPage.module.css'
 // import Home from '../images/home.jpg'
 // import {Link} from 'react-router-dom'
 // import{Buttonpublicsaftey,Buttonparks,Buttonhealth,Buttonarts,Buttonchildren,Buttonhousing, Buttonreturndir, Buttontransportation} from '../Button.js'
-// function DirectoryPage() {
-//   return (
-//     <div className = {styles.background}
+function DirectoryPage() {
+  return (
+    <div className = {styles.background}/>
 
 //     {/* <Link to='/'>
 //     <Buttonreturndir />
@@ -28,8 +28,8 @@
 //     <Link to='/housing'>
 //     <Buttonhousing />
 //   </Link>  */}
-//     </div>
-//   )
-// }
+    // </div>
+  )
+}
 
-// export default DirectoryPage
+export default DirectoryPage

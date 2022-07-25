@@ -49,6 +49,7 @@ const Buttondir = () =>{
   return (
     <div className={styles.Directory}>
       <Link href ='http://localhost:3000/DirectoryPage'>
+        
         <button5>
             Directories
         </button5>

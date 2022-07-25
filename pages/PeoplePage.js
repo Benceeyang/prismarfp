@@ -7,7 +7,7 @@ function PeoplePage() {
   return (
     <div>
         People
-        <Link to='/'>
+        <Link href='http://localhost:3000'>
     <Buttonreturndir />
     </Link>   
     </div>
